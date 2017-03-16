@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Auth\Auth.csproj", "{EB9D7138-4E59-41F8-9F35-8BB62BB94EBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{6FF987F5-C1EB-4CEF-A364-BC4241BC2DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{5B9280B5-493F-4207-9199-7744CF6F726E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protocol", "Protocol\Protocol.csproj", "{9F63C18C-E799-4BA4-8759-9C52788E371E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB9D7138-4E59-41F8-9F35-8BB62BB94EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9D7138-4E59-41F8-9F35-8BB62BB94EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9D7138-4E59-41F8-9F35-8BB62BB94EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9D7138-4E59-41F8-9F35-8BB62BB94EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF987F5-C1EB-4CEF-A364-BC4241BC2DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF987F5-C1EB-4CEF-A364-BC4241BC2DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF987F5-C1EB-4CEF-A364-BC4241BC2DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF987F5-C1EB-4CEF-A364-BC4241BC2DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B9280B5-493F-4207-9199-7744CF6F726E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9280B5-493F-4207-9199-7744CF6F726E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9280B5-493F-4207-9199-7744CF6F726E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9280B5-493F-4207-9199-7744CF6F726E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F63C18C-E799-4BA4-8759-9C52788E371E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F63C18C-E799-4BA4-8759-9C52788E371E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F63C18C-E799-4BA4-8759-9C52788E371E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F63C18C-E799-4BA4-8759-9C52788E371E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

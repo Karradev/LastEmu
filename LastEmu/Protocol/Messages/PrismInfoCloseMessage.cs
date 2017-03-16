@@ -1,0 +1,31 @@
+using Protocol.IO;
+
+using System;
+
+namespace Protocol.Messages
+{
+	public class PrismInfoCloseMessage : NetworkMessage
+	{
+		public const uint Id = 5853;
+
+		public override uint ProtocolId
+		{
+			get
+			{
+				return (uint)5853;
+			}
+		}
+
+		public PrismInfoCloseMessage()
+		{
+		}
+
+		public override void Deserialize(IDataReader reader)
+		{
+		}
+
+		public override void Serialize(IDataWriter writer)
+		{
+		}
+	}
+}
